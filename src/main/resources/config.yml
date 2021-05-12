@@ -1,0 +1,5 @@
+messages: {}
+system-active: false #system of broadcast message disabled or enabled
+sound_active: true #on message broadcast play sound
+sound-name: LEVEL_UP #https://www.spigotmc.org/wiki/cc-sounds-list/
+delay: 1 #in minutes
