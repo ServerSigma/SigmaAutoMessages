@@ -1,5 +1,9 @@
-messages: {}
-system-active: false #system of broadcast message disabled or enabled
-sound_active: true #on message broadcast play sound
+messages:  {} # tirar os {} e os # para criar uma config default (para usar cor use §)
+  #'3':
+  #- ''
+  #- '§cPlugin created of by: SigmaNetwork'
+  #- ''
+system-active: true #true para ativar o plugin, false para desativar o plugin
+sound-active: true #mandar o som para todos jogadores onlines, hora que mandar alguma das mensagens.
 sound-name: LEVEL_UP #https://www.spigotmc.org/wiki/cc-sounds-list/
-delay: 1 #in minutes
+system-delay: 60 #em segundos
