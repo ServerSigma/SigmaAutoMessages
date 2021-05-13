@@ -1,4 +1,4 @@
 # SigmaMessages
 
 
-Contributors: DevTuca
+**Contributors:** DevTuca
