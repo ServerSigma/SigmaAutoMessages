@@ -1,4 +1,4 @@
-messages:  {} # tirar os {} e os # para criar uma config default (para usar cor use §)
+messages:  {} # tirar os {} e os # para criar uma config default (para usar cor use #)
   #'3':
   #- ''
   #- '§cPlugin created of by: SigmaNetwork'
