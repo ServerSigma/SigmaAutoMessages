@@ -2,6 +2,7 @@ package dev.tuca.executable;
 
 import lombok.RequiredArgsConstructor;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
@@ -38,7 +39,7 @@ public class MessageSender {
                         if (soundActive) {
                             p.playSound(p.getLocation(), soundName, 0.25F, p.getLocation().getPitch());
                         }
-                        p.sendMessage(msg.replace("&", "§"));
+                        p.sendMessage(msg);
 
                     }
                     round++;
