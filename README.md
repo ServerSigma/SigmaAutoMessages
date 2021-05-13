@@ -1,4 +1,5 @@
-# SigmaMessages
+# SigmaMessages - ChangeLog
 
 
-**Contributors:** DevTuca
+**12/05/2021**
+- Plugin created.
