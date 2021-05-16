@@ -28,3 +28,10 @@ processResources {
         filter ReplaceTokens, tokens: [version: version]
     }
 }
+
+compileJava {
+    options.encoding('UTF-8')
+
+    sourceCompatibility('1.8')
+    targetCompatibility('1.8')
+}

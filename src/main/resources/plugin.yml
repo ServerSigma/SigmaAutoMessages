@@ -1,3 +1,4 @@
-name: SigmaMessages
-version: 1.0
-main: dev.tuca.SigmaMessages
+name: SigmaAutoMessages
+version: 1.0-SNAPSHOT
+authors: [DevTuca, DevKeni]
+main: com.serversigma.SigmaAutoMessages

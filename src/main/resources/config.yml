@@ -1,9 +1,44 @@
-messages:  {} # tirar os {} e os # para criar uma config default (para usar cor use §)
-  #'3':
-  #- ''
-  #- '§cPlugin created of by: SigmaNetwork'
-  #- ''
-system-active: true #true para ativar o plugin, false para desativar o plugin
-sound-active: true #mandar o som para todos jogadores onlines, hora que mandar alguma das mensagens.
-sound-name: LEVEL_UP #https://www.spigotmc.org/wiki/cc-sounds-list/
-system-delay: 60 #em segundos
+configuration:
+  sound: CLICK
+  delay: 117
+
+messages:
+  VIP:
+    - ""
+    - "&b&l                       VIP"
+    - ""
+    - "&f Adquira &b&lVIP&f, além de ajudar a manter o servidor online"
+    - "&f Você irá receber muitas vantagens incríveis!"
+    - ""
+
+  AJUDA:
+    - ""
+    - "&a&l                  AJUDA"
+    - ""
+    - "&f Precisa de ajuda? utilize &a/ajuda <dúvida>&f."
+    - "&f Você também pode receber suporte via &a/discord&f."
+    - ""
+
+  DISCORD:
+    - ""
+    - "&9&l                  DISCORD"
+    - ""
+    - "&f Acesse nosso discord e não perca as novidades!"
+    - "&f Utilize &9/discord &fe fique atento ao &9#novidades&f."
+    - ""
+
+  REGRAS:
+    - ""
+    - "&c&l                    REGRAS"
+    - ""
+    - "&f Encontrou algum infrator? utilize &c/reportar <jogador>&f."
+    - "&f Para ficar por dentro das regras, utilize &c/regras&f."
+    - ""
+
+  GLADIADOR:
+    - ""
+    - "&6&l                 GLADIADOR"
+    - ""
+    - "&f Evento gladiador todos domingos ás &617:30 (BR)&f!"
+    - "&f O evento suporta até &610 &fmembros por clan."
+    - ""
