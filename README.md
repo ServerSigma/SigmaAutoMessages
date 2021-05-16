@@ -1,4 +1,4 @@
-# SigmaMessages
+# SigmaAutoMessages
 
 
 **Changelog**
