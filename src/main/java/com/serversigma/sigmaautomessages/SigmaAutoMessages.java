@@ -1,6 +1,6 @@
-package com.serversigma;
+package com.serversigma.sigmaautomessages;
 
-import com.serversigma.schedulers.MessagesScheduler;
+import com.serversigma.sigmaautomessages.schedulers.MessagesScheduler;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class SigmaAutoMessages extends JavaPlugin {

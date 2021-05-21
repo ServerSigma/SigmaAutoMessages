@@ -1,4 +1,4 @@
-package com.serversigma.schedulers;
+package com.serversigma.sigmaautomessages.schedulers;
 
 import lombok.RequiredArgsConstructor;
 import org.bukkit.Sound;

@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'dev'
+group = 'com.serversigma'
 version = '1.0-SNAPSHOT'
 
 sourceCompatibility = '1.8'
@@ -17,6 +17,13 @@ repositories {
     maven { url = 'https://jitpack.io' }
 }
 
+compileJava {
+    options.encoding('UTF-8')
+
+    sourceCompatibility('1.8')
+    targetCompatibility('1.8')
+}
+
 dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
     implementation 'org.projectlombok:lombok:1.18.16'
@@ -27,11 +34,4 @@ processResources {
     from(sourceSets.main.resources.srcDirs) {
         filter ReplaceTokens, tokens: [version: version]
     }
-}
-
-compileJava {
-    options.encoding('UTF-8')
-
-    sourceCompatibility('1.8')
-    targetCompatibility('1.8')
 }
